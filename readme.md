@@ -1,1 +1,1 @@
-<img src="preview.png">
+<img src="preview.jpg" alt="Foto da interface do app ">
