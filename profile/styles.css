@@ -48,16 +48,16 @@ main {
     display: flex;
     flex: 1;
     flex-direction: column;
-    padding: 1rem 1.5rem;
+    padding: 0.8rem 1.5rem;
 }
 
 .name {
     display: flex;
-    margin-top: .8rem;
+    margin-top: .6rem;
     flex-direction: column;
     align-items: center;
     color: #0f172a;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .name h1 {
