@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #eff6ff;
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    flex-direction: column;
+}
+
+:root {
+    font-size: 62,5%;
+}
+
+.bar {
+    height: 3rem;
+    background-color: black;
+}
+
+header {
+    height: 4rem;
+    font-size: 2.5rem;
+    padding: 3rem 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div {
+    text-align: left;
+    padding-right: 0.5rem;
+}
+
+header img {
+    width: 3rem;
+}
+
+.title {
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+}
+
+.name {
+    display: flex;
+    margin-top: .8rem;
+    flex-direction: column;
+    align-items: center;
+    color: #0f172a;
+    margin-bottom: 2rem;
+}
+
+.name h1 {
+    font-size: 2.5rem;
+}
+
+.name h3 {
+    margin-top: .2rem;
+}
+
+.avatar {
+    text-align: center;
+}
+
+.avatar img {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons .box {
+    background-color: #3b82f6;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    color: #eff6ff;
+    height: 5.5rem;
+    border-radius: 1.2rem;
+}
+
+.buttons .box img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+footer {
+    display: flex;
+    margin-top: auto;
+    height: 6rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div img {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+footer div h5 {
+    margin-top: .2rem;
+}
+
+.home, .discover, .settings, .library {
+    color: #93c5fd;
+}
+
+.profile {
+    color: #3b82f6;
+}
+
+.bar-down {
+    height: 2rem;
+    background-color: black;
+}
