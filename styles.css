@@ -6,13 +6,73 @@
 
 body {
     width: 100vw;
+    height: 100vh;
     background-color: #eff6ff;
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    flex-direction: column;
 }
 
 :root {
     font-size: 62,5%;
 }
 
-h1 {
-    font-size: 2rem;
+.bar {
+    height: 3rem;
+    background-color: black;
+}
+
+header {
+    height: 4rem;
+    font-size: 2.5rem;
+    padding: 3rem 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+header div {
+    text-align: left;
+}
+
+.title {
+    font-weight: 500;
+}
+
+main {
+    
+}
+
+footer {
+    display: flex;
+    margin-top: auto;
+    height: 6rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div img {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+footer div h5 {
+    margin-top: .2rem;
+}
+
+.home, .discover, .profile, .settings {
+    color: #93c5fd;
+}
+
+.library {
+    color: #3b82f6;
+}
+
+.bar-down {
+    height: 2rem;
+    background-color: black;
 }
