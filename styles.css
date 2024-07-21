@@ -29,18 +29,69 @@ header {
     font-weight: 500;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 header div {
     text-align: left;
+    padding-right: 0.5rem;
+}
+
+header img {
+    width: 3rem;
 }
 
 .title {
     font-weight: 500;
 }
 
+
 main {
-    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: space-around;
+    gap: 1.4rem;
 }
+
+main div.item {
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-right: 3rem;
+}
+
+main div.item img {
+    width: 4rem;
+}
+
+main div.item h2 {
+    color: #eff6ff;
+    font-size: 2rem;
+    align-self: center;
+}
+
+main #music {
+    background-color: #f43f5e;
+}
+
+main #playlist {
+    background-color: #d946ef;
+}
+
+main #albums {
+    background-color: #8b5cf6;
+}
+
+main #favorites {
+    background-color: #3b82f6;
+}
+
+main #genres {
+    background-color: #06b6d4;
+}
+
 
 footer {
     display: flex;
