@@ -101,10 +101,53 @@ main {
 }
 
 
+.container {
+    display: flex;
+    flex: 1;
+    padding: 1.5rem;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.username, .notifications, .stats {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    height: 6rem;
+}
+
+.icon {
+    margin-right: 2rem;
+    background-color: #dcecff;
+    border-radius: 50%;
+    padding: 1.3rem;
+}
+
+.icon img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.option h3 {
+    font-size: 1.5rem;
+}
+
+.option h5 {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.arrow {
+    margin-left: auto;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+
 footer {
     display: flex;
     margin-top: auto;
-    height: 6rem;
+    height: 5rem;
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
