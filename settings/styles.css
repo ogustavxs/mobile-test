@@ -82,18 +82,40 @@ main .accountbar img {
 }
 
 .container img {
-    width: 1.5rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
+    padding: 1rem;
+}
+.container .part1, .container .part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.container .part1 {
+    margin-bottom: .5rem;
 }
 
 .container #opt {
     display: flex;
+    gap: 2rem;
+    align-items: center;
+    
+}
 
+.container #opt .arrow {
+    margin-left: auto;
+    font-size: 1.6rem;
+}
+
+.container #opt h2 {
+    margin-top: .3rem;
 }
 
 footer {
