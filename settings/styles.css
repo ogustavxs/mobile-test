@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #eff6ff;
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    flex-direction: column;
+}
+
+:root {
+    font-size: 62,5%;
+}
+
+.bar {
+    height: 3rem;
+    background-color: black;
+}
+
+header {
+    height: 3rem;
+    font-size: 2.5rem;
+    padding: 3rem 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div {
+    text-align: left;
+    padding-right: 0.5rem;
+}
+
+header img {
+    width: 3rem;
+}
+
+.title {
+    font-weight: 500;
+}
+
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    justify-content: space-around;
+    gap: 1.4rem;
+    
+}
+
+main .accountbar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #eaf3ff;
+    border-radius: 2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 1rem;
+}
+
+main .name-info h2 {
+    font-size: 2.2rem;
+    margin-bottom: .5rem;
+}
+
+main .name-info h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+main .accountbar img {
+    width: 5rem;
+    border-radius: 2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.container img {
+    width: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container #opt {
+    display: flex;
+
+}
+
+footer {
+    display: flex;
+    margin-top: auto;
+    height: 6rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div img {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+footer div h5 {
+    margin-top: .2rem;
+}
+
+.home, .discover, .profile, .library {
+    color: #93c5fd;
+}
+
+.settings {
+    color: #3b82f6;
+}
+
+.bar-down {
+    height: 2rem;
+    background-color: black;
+}
